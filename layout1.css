@@ -1,0 +1,79 @@
+* {
+    color: blanchedalmond;
+    background-color: lightslategray;
+}
+.line1 {
+    display: flex;
+    flex-direction: row;
+    background-color: lightslategray;
+    border: 10px solid darkgray;
+    border-bottom: 0px solid darkgray;
+    text-align: center;
+}
+.box11 {
+    border: 10px solid darkgray;
+    flex-grow: 1;
+ }
+.line1a {
+    display: flex;
+    background-color: darkgray;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 3;
+}
+.box12 {
+    display: flex;
+    border: 10px solid darkgray;
+    width: 60%;
+    justify-content: center;
+}
+.box13 {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid darkgray;
+    width: 90%;
+    justify-content: center;
+}
+.line2 {
+    display: flex;
+    border: 10px solid darkgray;
+    border-left: 20px solid darkgray;
+    border-right: 20px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+.line3 {
+    display: flex;
+    border: 10px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.box31 {
+    display: flex;
+    border: 10px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+.box32 {
+    display: flex;
+    border: 10px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+.line4 {
+    display: flex;
+    border: 10px solid darkgray;
+    border-bottom: 20px solid darkgray;
+    border-left: 20px solid darkgray;
+    border-right: 20px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
