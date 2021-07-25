@@ -1,0 +1,309 @@
+* {
+    max-width: 1350px;
+    overflow: visible;
+}
+li {
+    list-style-type: none;
+    color:cornflowerblue;
+}
+p {
+    display: flex;
+    text-align:start;
+}
+.navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.navleft {
+    width: 70%;
+}
+.navright {
+    display: flex;
+}
+.navright2 {
+    margin-left: 50px;
+}
+.tbox {
+    display: flex;
+    border: 15px solid lightgray;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.box1 {
+    display: flex;
+    width: 100%;
+}
+.bmwimage {
+    display: flex;
+    width: 50%;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.box1a {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.box11 {
+    display: flex;
+    justify-self: flex-end;
+}
+.box12 {
+    display: flex;
+    flex-direction: column;
+}
+.box13 {
+    display: flex;
+    width: 50%;
+    width: 100%;
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+.box13a {
+    display: flex;
+    flex: 1 1 10px;
+    width: 60%;
+    flex-direction: column;
+}
+.bline {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 10px solid white;
+}
+.bdesc1, .bdesc2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bdesc1 {
+    border-bottom: 5px solid lightgray;
+    border-left: 5px solid lightgray;
+    padding: 5px;
+    color: gray;
+}
+.bdesc2 {
+    color: black;
+}
+.box13b {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+.bbox1 {
+    display: flex;
+    flex-direction: row;
+    color: darkorange;
+}
+.bbid {
+    display: flex;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+    text-indent: 30px;
+    width: 150px;
+}
+.pbline {
+    display: inline-flex;
+    flex-direction: row;
+}
+.pblabel {
+    display: flex;
+    justify-content: center;
+}
+.pbval {
+    display: flex;
+    width: 50px;
+    margin-right: 50px;
+}
+.pbbutton {
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.carfax {
+    display: flex;
+    justify-content: flex-start;
+}
+.cf-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70px;
+    margin: 10px;
+}
+.cf-label {
+    border: 1px solid red;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: orange;
+    width: 2em;
+    text-align: center;
+}
+.cf-rate {
+    border: 1px solid red;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 2em;
+    text-align: center;
+}
+.announcements {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid lightgray;
+    overflow-y:auto;
+}
+.inner-frame {
+    display: flex;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.innerframe-label {
+    color: white;
+    background-color: darkblue;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 25px;
+    font-size: 10px;
+    padding-left: 10px;
+}
+#frame-line {
+    display: flex;
+    font-size: 12px;
+}
+.fl-label {
+    color: darkmagenta;
+    text-align: justify;
+}
+.fl-value {
+    color: gray;
+    text-align: justify;
+}
+.frame-line tr:nth-child(even) {
+  background-color: lightcyan;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    color: orange;
+    text-align: left;
+}
+td {
+    width: 1000px;
+    height: 30px;
+    font-size: 13px;
+}
+.mbox {
+    display: flex;
+    margin-top: 20px;
+    border: 15px solid lightgray;
+    flex-direction: column;
+}
+.tbox1 {
+    display: flex;
+    border: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    flex-direction: column;
+}
+.mb1 {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid lightgray;
+}
+#frame-line {
+    border-bottom:  15px solid lightgray;
+}
+#mb31 {
+    display: flex;
+    flex-direction: column;
+    border: 15px solid lightgray;
+    margin: 10px;
+}
+#mb41 {
+    display: flex;
+    flex-direction: column;
+    border-top: 15px solid lightgray;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#mb31a {
+    color: darkblue;
+    background-color: lightgray;
+    width: 100%;
+}
+#mb41a {
+    color: darkblue;
+    background-color: lightgray;
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;  
+}
+.damage {
+    display: flex;
+}
+.t1, .t2 {
+    display: flex;
+    flex-direction: row;
+}
+.t1 {
+    border-bottom: 2px solid lightgray;
+    margin: 15px;
+}
+.t2 {
+    margin-left: 20px;
+}
+.lbox {
+    display: flex;
+    width: 50%;
+}
+.rbox {
+    display: flex;
+    flex-direction: column;
+}
+.rbox41 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.rimage {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+#bbox {
+    margin-top: 20px;
+}
+.bbox {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+.bboxa {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.bboxa p {
+    line-height: 1px;
+    font-size: 13px;
+    color: blueviolet;
+}
+.vin {
+    color: darkgray;
+}
+.viewmore {
+    color: blue;
+    align-self: center;
+}
